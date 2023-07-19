@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Portfolio website</title>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+
+            <div>
+                <a href="#" class="nav__logo"><img src="assets/img/Logo.jpg" width="70" height="70" alt=""></a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <!--- <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li> -->
+                    <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main"></main>
+    <!--===== HOME =====-->
+    <section class="home bd-grid" id="home">
+        <div id="container">
+            <span id="text1"></span>
+            <span id="text2"></span>
+        </div>
+
+        <!-- The SVG filter used to create the merging effect -->
+        <svg id="filters">
+            <defs>
+                <filter id="threshold">
+                    <!-- Basically just a threshold effect - pixels with a high enough opacity are set to full opacity, and all other pixels are set to completely transparent. -->
+                    <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+                                                0 1 0 0 0
+                                                0 0 1 0 0
+                                                0 0 0 255 -140" />
+                </filter>
+            </defs>
+        </svg>
+
+
+
+
+    </section>
+
+    <!--===== ABOUT =====-->
+    <section class="about section " id="about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about__container bd-grid">
+            <div class="about__img">
+                <img src="assets/img/SEFLIE.jpg" alt="">
+            </div>
+
+            <div>
+                <!--- <h2 class="about__subtitle"></h2> -->
+                <p class="about__text">I'm an undergraduate who studied games Development at Norwich University of
+                    the Arts. Here I developed a deeper understanding of knowledge on how to develop simple &
+                    complex games in C++, primarily using Unreal Engine 4 & 5.
+                    <br>
+                    <br>
+                    I have taken part in Game Jams whilst at university which has helped me develop the skill of
+                    being able to work in a team, as I had to communicate and work alongside other roles in the team
+                    such as game design artists (Concept, Asset and Indie Developers).
+                    <br>
+                    <br>
+                    Outside of University, I still like to develop my own games, I'm currently working on a 3D
+                    Top-Down Shooter point and click war game with destruction physics, Other than developing games,
+                    I enjoy playing Chess, White-Water Kayaking and of course playing games, my favourite games
+                    which I'm playing at the moment are; Escape From Tarkov and Age Of Empires 2..
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!--===== WORK =====-->
+    <section class="work section" id="work">
+        <h2 class="section-title">Work</h2>
+
+        <div class="work__container bd-grid">
+            <!-- ENDLESS RUNNER PROTOTYPE -->
+            <a href="" class="work__NeonRunner">
+                <iframe width="800" height="500" src="https://www.youtube.com/embed/dST0snbvJ6E"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <p class="Description_NR">Neon Runner, is my endless runner prototype. Neon Runner uses procedural
+                    level design which takes in 3 lanes that take in a random number of walls, that the player will
+                    have to jump over. I chose to use the art theme neon as I was playing Cloudpunk at the time of
+                    development and started to really like neon lighting.
+                    <br>
+                    <br>
+                    Within this prototype, the player has two goals, to see how far the player can get, aswell as
+                    how many coins they can collect. For this I created a score system for the coins and a distance
+                    system, these constantly update to show the real score at the time of gameplay.
+                </p>
+            </a>
+            <!-- MONKEY GAME PROTOTYPE -->
+            <a href="" class="work__MonkeyGame">
+                <iframe width="800" height="500" src="https://www.youtube.com/embed/gPqq8VXRg5o"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <p class="Description_MG">
+                    10 Second Monkey is a game which I created with a team of 5 over 72 hours for a game jam event.
+                    The theme for this game jam was "10 seconds". We used a mechanic to fit the theme by implementing a
+                    rewind mechanic which
+                    allowed the player to rewind there position in the game to up to 10 seconds in the past. There would
+                    be collectables that
+                    spawn around the game scene which the player could pick up, if the bar was full, then the player
+                    would be able to execute
+                    this mechanic fully.
+                    <br>
+                    The aim of this game to survive for as long as the player can, eliminating the scientists, aswell as
+                    using the rewind
+                    mechanic when the player gets swarmed by the scientists.
+                </p>
+            </a>
+            <!-- GROUP PROJECT FAIRY TALE GAME -->
+            <a href="" class="work__GroupProject">
+                <iframe width="800" height="500" src="https://www.youtube.com/embed/SmRfd3zTlT8"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <p class="Description_GP">
+                    University group project, I worked with 6 other people who specialise in
+                    different elements of developing a game, e.g. Asset Design, Concept Art and Indie Developer.
+                    Through collaboration we decided on a fairy tale game, which incorporates multiple fairy tale
+                    books which are located around the game scene. The player has to interact with all of the different
+                    fairy tale characters through dialogue on different islands in order to reach the final island!
+                    <br>
+                    <br>
+                    Along the way, the player is able to use portals as a way of getting a checkpoint, in order to
+                    enable
+                    this, the player has to walk through the portal which will take them back to the start of the game
+                    scene.
+                    However, if the payer falls to their death when traversing to different islands, they can use the
+                    portal to
+                    instantly reach an island that is near where they fell. This portal mechanic really helped not ruin
+                    the gameplay
+                    experience, as if the player fell without the portal, the player would have to restart at the
+                    begining.
+
+                </p>
+            </a>
+            <!--PHYSICS BASED HOVERCRAFT GAME -->
+            <a href="" class="HoverCraft">
+                <iframe width="800" height="500" src="https://www.youtube.com/embed/ooxXONr_-lk"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <p class="Description_PG">
+                    Physics based game, the aim of the game is to move the ball into the goal.
+                    On the first level the player has to use enough force to knock the ball off of the cylinder post
+                    by knocking the pole over, then pushing the ball into the goal, which takes them to the next
+                    level.
+                    <br>
+                    <br>
+                    The next level is alot more technical, this is because the player has to manoeuvre to 2
+                    different small islands, before being able to push the ball. If the player doesn't use enough
+                    force when pushing the ball, the ball will not reach the last island which the floor is the
+                    goal, making the player restart the level.
+                </p>
+            </a>
+            <!--The Asset Stealth Game-->
+            <a href="" class="TheAsset">
+                <iframe width="800" height="500" src="https://www.youtube.com/embed/nqLUWytvSeQ"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <p class="Description_SG">
+                    The Asset is my final project I worked on at university. This stealth game themed game incorporates
+                    Advanced AI implementation and a variety of differnet game mechanics eqipping the player with a
+                    vision advantage. The aim for the player is to traverse through three room which are guarded by AI,
+                    doing whatever is necessary to reach the exit door to escape.
+                    <br>
+                    <br>
+                    My specialised focus for this project was to develop a deeper understanding on advanced AI implementations, Gameplay 
+                    Mechanics and Audio programming
+                </p>
+            </a>
+            <!--THIS GAME WILL BE THE TOUCH TO MOVE DESTRUCTION GAME-->
+            <a href="" class="work__TEST3">
+                <iframe width="800" height="500" src="https://www.youtube.com/embed/SmRfd3zTlT8"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </a>
+
+
+        </div>
+    </section>
+
+
+
+    <!--===== CONTACT =====-->
+    <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+        <div class="Square">
+            <svg width="800" height="400">
+                <rect width="800" height="400" style="fill:rgb(255, 192, 109);stroke-width:5;stroke:rgb(0,0,0)" />
+            </svg>
+        </div>
+        <div class="SquareInside">
+            <svg width="750" height="360">
+                <rect width="750" height="360" style="fill:rgb(39, 39, 39)" />
+
+            </svg>
+
+        </div>
+        <div class="ContactInformation">
+            <p><b class="ContactTitleColour">Email:</b>&nbsp Oliver.Jacques2401@gmail.com</p>
+            <br>
+            <p><b class="ContactTitleColour"> Phone:</b> &nbsp 07594619873</p>
+            <br>
+            <p><b class="ContactTitleColour">LinkedIn:</b> &nbsp <a
+                    href="https://www.linkedin.com/in/oliverjacques01/">Profile</a></p>
+        </div>
+    </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <!---
+        <p class="footer__title">Ollie</p>
+        <div class="footer__social">
+            <a href="#" class="footer__icon"><i class='bx bxl-facebook'></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-instagram'></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-twitter'></i></a>
+        </div>
+    
+        <p class="footer__copy">&#169; Ollie Jacques. CopyRight</p>
+        -->
+    </footer>
+
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
