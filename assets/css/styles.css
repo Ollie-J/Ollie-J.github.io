@@ -397,18 +397,19 @@ img {
 }
 
 .work__img img:hover {
-  transform: scale(1.1);
+  transform: scale(1.1); 
 }
 
 /* ===== CONTACT =====*/
 
 .Square{
-  margin-left: 65rem;
+  margin-left: 25rem;
 }
 
 .SquareInside{
-  margin-left: 67rem;
-  margin-top: -24rem;
+  margin-left: 28rem;
+  margin-top: -47rem;
+  opacity: 1;
 }
 
 .ContactInformation{
@@ -581,8 +582,11 @@ img {
   }
 }
 
+
 .AnimatedTextHome{
+
   font-size: 3rem;
   text-align: center;
-  font-weight: 700;
+  
+ 
 }
