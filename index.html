@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0,  shrink-to-fit=yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,  shrink-to-fit=no">
 
     <link rel="stylesheet" href="assets/css/styles.css">
 
@@ -44,20 +44,22 @@
         <div id="container">
             <span id="text1"></span>
             <span id="text2"></span>
+
+        <div class="AnimatedTextHome" id="homeanim">
+            <p >
+               
+                <span>
+                    &mdash;  Hi I'm Oliver Jacques! UnderGraduate Games Programmer &mdash;
+                </span>
+                &mdash; Welcome to my website &mdash;
+              </p>
+
+        </div>
+            
+
         </div>
 
-        <!-- The SVG filter used to create the merging effect -->
-        <svg id="filters">
-            <defs>
-                <filter id="threshold">
-                    <!-- Basically just a threshold effect - pixels with a high enough opacity are set to full opacity, and all other pixels are set to completely transparent. -->
-                    <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
-                                                0 1 0 0 0
-                                                0 0 1 0 0
-                                                0 0 0 255 -140" />
-                </filter>
-            </defs>
-        </svg>
+        
 
 
 
@@ -254,12 +256,8 @@
         -->
     </footer>
 
-
-    <!--===== SCROLL REVEAL =====-->
-    <script src="https://unpkg.com/scrollreveal"></script>
-
-    <!--===== MAIN JS =====-->
-    <script src="assets/js/main.js"></script>
+   
+    
 </body>
 
 </html>
