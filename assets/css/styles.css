@@ -444,6 +444,7 @@ img {
 
 /* ===== CONTACT =====*/
 
+
 .Square{
   margin-left: 55rem;
 }
@@ -454,16 +455,12 @@ img {
   opacity: 1;
 }
 
+/* GMAIL BUTTON */
 .GmailLogo{
   margin-top: -25rem;
   margin-left: 70rem;
-}
-
-.Email{
+  display: flex;
   text-align: center;
-  
-  margin-top: -3rem;
-  font-size: 2rem;
 }
 
 .EmailButton{
@@ -471,10 +468,33 @@ img {
   border-color: transparent;
 }
 
+/* Github BUTTON */
+.Github{
+  margin-left: 98rem;
+  margin-top: -4rem;
+  width: 4rem;
+  height: 4rem;
+  
+  display: flex;
+  text-align: center;
+}
+
+/* LINKEDIN LOGO */
+.LinkedinButton{
+  margin-left: 125rem;
+  margin-top: -4rem;
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  text-align: center;
+  background-color: transparent;
+  border-color: transparent;
+}
+
 .Phone{
-  margin-left: 63rem;
+  text-align: center;
   margin-top: 5rem;
-  font-size: 2rem;
+  font-size: 25px;
 }
 
 .ContactTitleColour{
@@ -519,6 +539,12 @@ img {
     width: 200px;
   }
 }
+
+
+
+
+
+
 
 @media screen and (min-width: 576px) {
   .home {
@@ -614,12 +640,7 @@ img {
   .about__img img {
     width: 300px;
   }
-  .skills__container {
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 2rem;
-    align-items: center;
-    text-align: initial;
-  }
+  
   .work__container {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2rem;
