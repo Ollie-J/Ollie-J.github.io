@@ -322,7 +322,7 @@ img {
 
 .about__text{
   width: 150%;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .about__subtitle {
@@ -372,7 +372,7 @@ img {
 }
 
 .Description_NR{
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-align: center;
   color: #f7f7f7;
 }
@@ -385,7 +385,7 @@ img {
 }
 
 .Description_MG{
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-align: center;
   color: #f7f7f7;
 }
@@ -398,7 +398,7 @@ img {
 }
 
 .Description_GP{
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-align: center;
   color: #f7f7f7;
 }
@@ -412,7 +412,7 @@ img {
 }
 
 .Description_PG{
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-align: center;
   color: #f7f7f7;
 }
@@ -426,7 +426,7 @@ img {
 }
 
 .Description_SG{
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-align: center;
   color: #f7f7f7;
 }
@@ -440,6 +440,12 @@ img {
 
 .work__img img:hover {
   transform: scale(1.1); 
+}
+
+.GuessGameText{
+  font-size: 1.3rem;
+  text-align: center;
+  color: #f7f7f7;
 }
 
 /* ===== CONTACT =====*/
