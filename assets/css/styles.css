@@ -446,11 +446,11 @@ img {
 
 
 .Square{
-  margin-left: 55rem;
+  margin-left: 51rem;
 }
 
 .SquareInside{
-  margin-left: 58rem;
+  margin-left: 54.25rem;
   margin-top: -47rem;
   opacity: 1;
 }
@@ -458,7 +458,7 @@ img {
 /* GMAIL BUTTON */
 .GmailLogo{
   margin-top: -25rem;
-  margin-left: 70rem;
+  margin-left: 60rem;
   display: flex;
   text-align: center;
 }
@@ -470,7 +470,7 @@ img {
 
 /* Github BUTTON */
 .Github{
-  margin-left: 98rem;
+  margin-left: 88rem;
   margin-top: -4rem;
   width: 4rem;
   height: 4rem;
@@ -481,7 +481,7 @@ img {
 
 /* LINKEDIN LOGO */
 .LinkedinButton{
-  margin-left: 125rem;
+  margin-left: 110rem;
   margin-top: -4rem;
   width: 5rem;
   height: 5rem;
@@ -494,7 +494,7 @@ img {
 .Phone{
   text-align: center;
   margin-top: 5rem;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .ContactTitleColour{
