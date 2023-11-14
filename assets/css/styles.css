@@ -450,94 +450,68 @@ img {
 
 /* ===== CONTACT =====*/
 
-
-.Square{
-  margin-left: 65rem;
-}
-
-.SquareInside{
-  margin-left: 68rem;
-  margin-top: -47rem;
-  opacity: 1;
-}
-
-/* GMAIL BUTTON */
-.GmailLogo{
-  margin-top: -25rem;
-  margin-left: 77rem;
+#contact {
   display: flex;
-  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 40vh;
 }
 
-.EmailButton{
-  background-color: transparent;
-  border-color: transparent;
+.section_text_p1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
 }
 
-/* Github BUTTON */
-.Github{
-  margin-left: 97rem;
-  margin-top: -4rem;
-  width: 4rem;
-  height: 4rem;
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+}
+.contact-info-upper-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  background: (250, 250, 250);
+  margin: 2rem auto;
+  padding: 0.5rem;
+}
+
+.contact-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
   
-  display: flex;
-  text-align: center;
 }
 
-/* LINKEDIN LOGO */
-.LinkedinButton{
-  margin-left: 120rem;
-  margin-top: -4rem;
-  width: 5rem;
-  height: 5rem;
-  display: flex;
-  text-align: center;
-  background-color: transparent;
-  border-color: transparent;
+.contact-info-container p {
+  font-size: larger;
 }
 
-.Phone{
-  text-align: center;
-  margin-top: 5rem;
-  font-size: 30px;
+.contact-icon{
+  height: 2.5rem;
+ 
+  
 }
 
-.ContactTitleColour{
-  color: #f5ab6e;
-}
 
 /* ===== FOOTER =====*/
 .footer {
-  background-color: var(--second-color);
-  color: #fff;
-  text-align: center;
-  font-weight: var(--font-semi);
-  padding: 2rem 0;
-  margin-top: 10rem;
+  height: 5vh;
+ text-align: center;
 }
 
-.footer__title {
-  font-size: 2rem;
-  margin-bottom: var(--mb-4);
-}
 
-.footer__social {
-  margin-bottom: var(--mb-4);
-}
-
-.footer__icon {
-  font-size: 1.5rem;
-  color: #fff;
-  margin: 0 var(--mb-2);
-}
-
-.footer__copy {
-  font-size: var(--smaller-font-size);
-}
 
 /* ===== MEDIA QUERIES=====*/
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1400px) {
   .home {
     row-gap: 2rem;
   }
