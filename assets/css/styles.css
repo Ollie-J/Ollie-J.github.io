@@ -75,6 +75,8 @@ img {
   display: block;
 }
 
+
+
 /*===== CLASS CSS ===== */
 .section-title {
   position: relative;
@@ -331,6 +333,7 @@ img {
 
 .about__img {
   justify-self: center;
+  
 }
 
 .about__img img {
@@ -338,24 +341,7 @@ img {
   border-radius: .5rem;
 }
 
-/* skills 
-.skills__container {
-  row-gap: 2rem;
-  
-}
 
-.skills__subtitle {
-  margin-bottom: var(--mb-2); 
-  width: 100%;
-  margin-left: 20rem;
-}
-
-.skills__text {
-  margin-bottom: var(--mb-4);
-  width: 100%;
-  margin-left: 20rem;
-}
-*/
 
 /* ===== WORK =====*/
 .work__container {
@@ -496,11 +482,14 @@ img {
 }
 
 .contact-icon{
-  height: 2.5rem;
+  height: 2.7rem;
  
   
 }
 
+.linkedin-icon{
+  height: 2.2rem;
+}
 
 /* ===== FOOTER =====*/
 .footer {
