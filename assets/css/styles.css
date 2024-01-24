@@ -316,6 +316,25 @@ img {
 }
 
 
+
+.home-Github {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  margin-left: -1rem;
+  margin-top: 1rem;
+  size: 1.5rem;
+  
+}
+
+.Github-icon{
+  height: 4.0rem;
+}
+
+
 /* ===== ABOUT =====*/
 .about__container {
   row-gap: 2rem;
@@ -334,11 +353,13 @@ img {
 .about__img {
   justify-self: center;
   
+  
 }
 
 .about__img img {
   width: 200px;
-  border-radius: .5rem;
+  border-radius: .5rem; 
+  border-radius: 50%; 
 }
 
 
